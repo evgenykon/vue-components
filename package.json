@@ -9,7 +9,7 @@
     "sass-loader": "^8.0.0"
   },
   "scripts": {
-    "dev": "vue serve"
+    "dev": "vue serve -o"
   },
   "repository": {
     "type": "git",
