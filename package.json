@@ -1,0 +1,28 @@
+{
+  "name": "vue-components",
+  "version": "1.0.0",
+  "description": "Vue components collection",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  },
+  "scripts": {
+    "dev": "vue serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/effus/vue-components.git"
+  },
+  "keywords": [
+    "vue",
+    "components"
+  ],
+  "author": "effus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/effus/vue-components/issues"
+  },
+  "homepage": "https://github.com/effus/vue-components#readme"
+}

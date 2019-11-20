@@ -8,7 +8,7 @@ export default {
     props: {
         allowed: {
             type: Array,
-            default: ['en', 'ru']
+            default: () => ['en', 'ru']
         },
         spriteUrl: {
             type: String,
