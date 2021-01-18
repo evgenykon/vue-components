@@ -1,13 +1,19 @@
-# Library of my Vue-components
+# vue-components
 
-![Screen](assets/2019-11-20_150730.png)
+## Project setup
+```
+npm install
+```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-# List
+### Compiles and minifies for production
+```
+npm run build
+```
 
-- LanguageSelector.vue
-
-# Run demo
-
-- `npm install -g @vue/cli-service-global`
-- `vue serve`
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,28 +1,20 @@
 {
   "name": "vue-components",
-  "version": "1.0.0",
-  "description": "Vue components collection",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0"
-  },
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "vue serve -o"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/effus/vue-components.git"
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
   },
-  "keywords": [
-    "vue",
-    "components"
-  ],
-  "author": "effus",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/effus/vue-components/issues"
-  },
-  "homepage": "https://github.com/effus/vue-components#readme"
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
 }

@@ -24,7 +24,7 @@
 <script>
 import LanguageSelector from './components/LanguageSelector.vue';
 export default {
-    name: 'CueComponentsCollection',
+    name: 'App',
     components: {
         LanguageSelector
     }
