@@ -13,7 +13,8 @@
                     <pre>&lt;language-selector&gt;&lt;/language-selector&gt;</pre>
                 </td>
                 <td>
-                    <language-selector></language-selector>
+                    <base-language-selector default="en"></base-language-selector>
+                    <base-language-selector default="ru"></base-language-selector>
                 </td>
             </tr>
         </table>
@@ -22,11 +23,11 @@
 </template>
 
 <script>
-import LanguageSelector from './components/LanguageSelector.vue';
+import BaseLanguageSelector from './components/BaseLanguageSelector.vue';
 export default {
     name: 'App',
     components: {
-        LanguageSelector
+        BaseLanguageSelector
     }
 }
 </script>
